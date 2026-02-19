@@ -159,8 +159,8 @@
 		chipone,def-build-id = <0x0101>;
 		chipone,def-config-id = <0x0001>;
 		pinctrl-names = "pmx_ts_int_active","pmx_ts_int_suspend_high";
-		pinctrl-3 = <&ts_active>;
-		pinctrl-4 = <&ts_int_suspend_high>;
+		pinctrl-0 = <&ts_active>;
+		pinctrl-1 = <&ts_int_suspend_high>;
 		panel = <&dsi_icnl9922_fhd_plus_120_video>;
 		status = "ok";
 	};
