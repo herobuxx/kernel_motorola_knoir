@@ -333,7 +333,7 @@
 	qcom,mdss-dsi-hbm-off-command-state =  "dsi_lp_mode";
         qcom,mdss-dsi-hbm-type = "lcd-dcs-wled";
 
-	qcom,suspend-ulps-enabled;
+	/* qcom,suspend-ulps-enabled; */
 
 	qcom,tp_state_check_enable;
 	qcom,platform-need-execute-shutdown;

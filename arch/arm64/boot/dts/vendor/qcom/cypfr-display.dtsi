@@ -144,7 +144,7 @@
 	qcom,mdss-dsi-no-panel-on-read-support;
 	qcom,mdss-dsi-panel-supplier = "tm";
 
-	qcom,suspend-ulps-enabled;
+	/* qcom,suspend-ulps-enabled; */
 
 	qcom,tp_state_check_enable;
 
